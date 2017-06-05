@@ -7,7 +7,6 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -20,8 +19,6 @@ import java.util.List;
 import butterknife.BindView;
 
 public class MainView extends BaseView<MainContract.Presenter> implements MainContract.View {
-
-    public static final String TAG = "MAIN VIEW";
 
     @BindView(R.id.rv_refresh)
     RecyclerView mRvRefresh;

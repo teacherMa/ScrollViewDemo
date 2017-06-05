@@ -8,7 +8,7 @@ import android.view.MotionEvent;
 
 /**
  * Created by teacherMa on 2017/6/3.
- *
+ * A RecyclerView that support up drag loading more and down drag to fresh UI
  */
 
 public class DragRecyclerView extends RecyclerView {
